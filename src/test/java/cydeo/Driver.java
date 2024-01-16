@@ -65,7 +65,7 @@ public class Driver {
                     driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
                     break;
                 case "firefox":
-                    WebDriverManager.firefoxdriver().setup();
+                   WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     break;
                 case "firefox-headless":
